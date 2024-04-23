@@ -6,7 +6,11 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslint config",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Zeindelf",
     "email": "zeindelf@hotmail.com",
@@ -24,5 +28,8 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-promise": "^6.1.1",
     "jsonc-eslint-parser": "^2.4.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
   }
 }

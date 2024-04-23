@@ -29,24 +29,24 @@ module.exports = {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
     "import/prefer-default-export": "off",
+    // Import rules
+    "import/no-extraneous-dependencies": "off",
+    "import-helpers/order-imports": ["warn", {
+      "alphabetize": { "order": "asc", "ignoreCase": true },
+      "newlinesBetween": "always",
+      "groups": [
+        "/^react/",
+        "module",
+        "/^@[^\/]/",
+        "/^@/icons|@/constants/",
+        "/^@/",
+        "/^@/types/",
+        ["parent", "sibling", "index"],
+        ["/types/", "/styles/"],
+      ]
+    }],
   },
-  // Import rules
-  "import/no-extraneous-dependencies": "off",
-  "import-helpers/order-imports": ["warn", {
-    "alphabetize": { "order": "asc", "ignoreCase": true },
-    "newlinesBetween": "always",
-    "groups": [
-      "/^react/",
-      "module",
-      "/^@[^\/]/",
-      "/^@/icons|@/constants/",
-      "/^@/",
-      "/^@/types/",
-      ["parent", "sibling", "index"],
-      ["/types/", "/styles/"]
-    ]
-  }],
   "globals": {
-    "jest": true
-  }
+    "jest": true,
+  },
 };
