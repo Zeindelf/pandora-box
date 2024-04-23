@@ -25,7 +25,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "publish:base": "npm publish -w @pandora-box/eslint-config-base --access public"
   },
   "devDependencies": {
     "@pandora-box/eslint-config-base": "0.0.1",
