@@ -1,0 +1,18 @@
+{
+  "name": "@pandora-box/prettier",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "prettier",
+    "lint",
+    "config"
+  ],
+  "main": "index.js",
+  "devDependencies": {},
+  "author": {
+    "name": "Zeindelf",
+    "email": "zeindelf@hotmail.com",
+    "url": "https://zeindelf.dev"
+  },
+  "license": "ISC"
+}

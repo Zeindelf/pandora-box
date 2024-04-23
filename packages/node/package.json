@@ -1,0 +1,13 @@
+{
+  "name": "@pandora-box/eslint-config-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": {
+    "name": "Zeindelf",
+    "email": "zeindelf@hotmail.com",
+    "url": "https://zeindelf.dev"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pandora-box",
+  "version": "0.0.1",
+  "description": "Shared eslint configurations",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "typescript",
+    "react",
+    "prettier",
+    "jest"
+  ],
+  "homepage": "https://github.com/Zeindelf/pandora-box#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeindelf/pandora-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zeindelf/pandora-box/issues"
+  },
+  "author": "Zeindelf <zeindelf@hotmail.com> (https://zeindelf.dev)",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@pandora-box/eslint-config-base": "*",
+    "eslint": "^9.1.1"
+  },
+  "main": "index.js"
+}

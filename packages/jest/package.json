@@ -1,0 +1,25 @@
+{
+  "name": "@pandora-box/eslint-config-jest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "jest"
+  ],
+  "author": {
+    "name": "Zeindelf",
+    "email": "zeindelf@hotmail.com",
+    "url": "https://zeindelf.dev"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-jest": "^28.2.0",
+    "eslint-plugin-jest-formatting": "^3.1.0"
+  }
+}
