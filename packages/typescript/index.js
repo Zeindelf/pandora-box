@@ -16,7 +16,12 @@ module.exports = {
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "project": "tsconfig.json",
-      }
+      },
+      rules: {
+        "@typescript-eslint/indent": "off",
+        "typescript-sort-keys/interface": "error",
+        "typescript-sort-keys/string-enum": "error",
+      },
     },
     {
       files: ['**/*/*.{test,spec}.{ts,tsx}'],
