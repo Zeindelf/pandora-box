@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+/** @type {import("prettier").Config} */
 module.exports = {
   trailingComma: 'all',
   tabWidth: 2,

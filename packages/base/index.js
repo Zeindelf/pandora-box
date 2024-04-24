@@ -14,6 +14,7 @@ module.exports = {
   ],
   extends: [
     'airbnb-base',
+    'plugin:node/recommended',
     'plugin:promise/recommended',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
@@ -27,6 +28,7 @@ module.exports = {
     "no-restricted-exports": "off",
     // Prettier broken new line on Linux CI
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    'max-len': ['error', { code: 120 }],
     // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
     "import/prefer-default-export": "off",
     // Import rules

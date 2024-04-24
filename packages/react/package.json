@@ -3,14 +3,40 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "lint",
+    "eslint",
+    "eslint config",
+    "eslintconfig",
+    "config",
+    "typescript",
+    "typescript lint",
+    "react",
+    "react lint"
+  ],
   "author": {
     "name": "Zeindelf",
     "email": "zeindelf@hotmail.com",
     "url": "https://zeindelf.dev"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@pandora-box/eslint-config-typescript": "^0.0.1",
+    "eslint": ">= 9",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "react": ">= 18",
+    "typescript": ">= 5"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  }
 }

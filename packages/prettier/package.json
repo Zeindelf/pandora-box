@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "description": "",
   "keywords": [
-    "prettier",
     "lint",
-    "config"
+    "eslint",
+    "eslint config",
+    "eslintconfig",
+    "config",
+    "prettier"
   ],
   "main": "index.js",
+  "files": ["index.js"],
   "devDependencies": {},
   "author": {
     "name": "Zeindelf",
