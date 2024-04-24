@@ -46,6 +46,59 @@ module.exports = {
       ]
     }],
   },
+  overrides: [
+    {
+      files: ['*.json', '*.json5'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'comma-dangle': ['error', 'never'],
+        'max-lines': 'off',
+        'quote-props': ['error', 'always'],
+        'quotes': ['error', 'double'],
+      },
+    },
+    {
+      files: ['package.json'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'jsonc/sort-keys': [
+          'error',
+          {
+            order: [
+              'name',
+              'version',
+              'description',
+              'keywords',
+              'license',
+              'repository',
+              'funding',
+              'author',
+              'type',
+              'exports',
+              'main',
+              'files',
+              'module',
+              'unpkg',
+              'bin',
+              'scripts',
+              'dependencies',
+              'devDependencies',
+              'peerDependencies',
+              'peerDependenciesMeta',
+              'eslintConfig',
+              'lint-staged',
+              'husky',
+            ],
+            pathPattern: '^$',
+          },
+          {
+            order: { type: 'asc' },
+            pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
+          },
+        ],
+      },
+    },
+  ],
   "globals": {
     "jest": true,
   },
