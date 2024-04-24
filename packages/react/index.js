@@ -31,5 +31,13 @@ module.exports = {
     "jsx-a11y/label-has-associated-control": [2, {
       "required": { "some": ["nesting", "id"] }
     }],
+    // Disable indent to use prettier instead
+    indent: 'off',
+    '@typescript-eslint/indent': 'off',
+  },
+  settings: {
+    react: {
+      version: '>= 18',
+    },
   },
 };

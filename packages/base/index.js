@@ -14,7 +14,6 @@ module.exports = {
   ],
   extends: [
     'airbnb-base',
-    'plugin:node/recommended',
     'plugin:promise/recommended',
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
@@ -24,11 +23,10 @@ module.exports = {
   rules: {
     // Avoid LF/CRLF on Win/Linux/Mac
     "linebreak-style": "off",
-    // Allow use of 'export { default }' from index files
-    "no-restricted-exports": "off",
     // Prettier broken new line on Linux CI
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
-    'max-len': ['error', { code: 120 }],
+    // Allow use of 'export { default }' from index files
+    "no-restricted-exports": "off",
     // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
     "import/prefer-default-export": "off",
     // Import rules

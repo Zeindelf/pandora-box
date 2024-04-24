@@ -18,7 +18,6 @@ module.exports = {
         "project": "tsconfig.json",
       },
       rules: {
-        "@typescript-eslint/indent": "off",
         "typescript-sort-keys/interface": "error",
         "typescript-sort-keys/string-enum": "error",
       },
@@ -33,4 +32,20 @@ module.exports = {
       },
     },
   ],
-}
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': [
+        '.ts',
+        '.mts',
+        '.cts',
+        '.tsx',
+        '.d.ts',
+      ],
+    },
+    'import/resolver': {
+      'typescript': {
+        alwaysTryTypes: true,
+      },
+    },
+  },
+};

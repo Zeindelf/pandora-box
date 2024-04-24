@@ -1,9 +1,11 @@
 {
   "name": "@pandora-box/eslint-config-base",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "Base plugins and rules setup",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "lint",
     "eslint",

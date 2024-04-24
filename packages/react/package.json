@@ -1,6 +1,6 @@
 {
   "name": "@pandora-box/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@pandora-box/eslint-config-typescript": "^0.0.1",
+    "@pandora-box/eslint-config-typescript": "*",
     "eslint": ">= 9",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
