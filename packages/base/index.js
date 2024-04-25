@@ -45,6 +45,19 @@ module.exports = {
         ['/types/', '/styles/'],
       ]
     }],
+    // Airbnb conflicts rule
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        '': 'never',
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+        mjs: 'never',
+      },
+    ],
   },
   overrides: [
     {

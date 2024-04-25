@@ -46,6 +46,9 @@ module.exports = {
       typescript: {
         alwaysTryTypes: true,
       },
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
     },
   },
 };
