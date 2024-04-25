@@ -1,8 +1,8 @@
-## Eslint Base Config
+## Eslint React Config
 
 ### Installation
 ```bash
-npm install -D prettier @pandora-box/eslint-config-react
+npm install -D @pandora-box/eslint-config-react
 ```
 
 ### Setup

@@ -1,10 +1,10 @@
 module.exports = {
   env: {
-    'browser': true,
-    'commonjs': true,
-    'es2022': true,
-    'jest': true,
-    'node': true,
+    browser: true,
+    commonjs: true,
+    es2022: true,
+    jest: true,
+    node: true,
   },
   plugins: [
     'promise',
@@ -22,27 +22,27 @@ module.exports = {
   ],
   rules: {
     // Avoid LF/CRLF on Win/Linux/Mac
-    "linebreak-style": "off",
+    'linebreak-style': 'off',
     // Prettier broken new line on Linux CI
-    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
     // Allow use of 'export { default }' from index files
-    "no-restricted-exports": "off",
+    'no-restricted-exports': 'off',
     // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
-    "import/prefer-default-export": "off",
+    'import/prefer-default-export': 'off',
     // Import rules
-    "import/no-extraneous-dependencies": "off",
-    "import-helpers/order-imports": ["warn", {
-      "alphabetize": { "order": "asc", "ignoreCase": true },
-      "newlinesBetween": "always",
-      "groups": [
-        "/^react/",
-        "module",
-        "/^@[^\/]/",
-        "/^@/icons|@/constants/",
-        "/^@/",
-        "/^@/types/",
-        ["parent", "sibling", "index"],
-        ["/types/", "/styles/"],
+    'import/no-extraneous-dependencies': 'off',
+    'import-helpers/order-imports': ['warn', {
+      alphabetize: { order: 'asc', ignoreCase: true },
+      newlinesBetween: 'always',
+      groups: [
+        '/^react/',
+        'module',
+        '/^@[^\/]/',
+        '/^@/icons|@/constants/',
+        '/^@/',
+        '/^@/types/',
+        ['parent', 'sibling', 'index'],
+        ['/types/', '/styles/'],
       ]
     }],
   },
@@ -54,7 +54,7 @@ module.exports = {
         'comma-dangle': ['error', 'never'],
         'max-lines': 'off',
         'quote-props': ['error', 'always'],
-        'quotes': ['error', 'double'],
+        quotes: ['error', 'double'],
       },
     },
     {
@@ -99,7 +99,7 @@ module.exports = {
       },
     },
   ],
-  "globals": {
-    "jest": true,
+  globals: {
+    jest: true,
   },
 };

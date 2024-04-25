@@ -1,8 +1,8 @@
-## Eslint Base Config
+## Eslint Typescript Config
 
 ### Installation
 ```bash
-npm install -D prettier @pandora-box/eslint-config-typescript
+npm install -D @pandora-box/eslint-config-typescript
 ```
 
 ### Setup

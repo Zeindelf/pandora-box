@@ -2,7 +2,7 @@
 
 ### Installation
 ```bash
-npm install -D prettier @pandora-box/prettier
+npm install -D @pandora-box/prettier
 ```
 
 ### Setup

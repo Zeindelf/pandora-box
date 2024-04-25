@@ -4,7 +4,7 @@ module.exports = {
     'plugin:jest-formatting/recommended',
   ],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   rules: {

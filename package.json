@@ -1,6 +1,6 @@
 {
   "name": "pandora-box",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Shared eslint configurations",
   "keywords": [
     "eslint",
@@ -28,8 +28,16 @@
     "lint": "eslint . --fix",
     "publish:base": "npm publish -w @pandora-box/eslint-config-base --access public",
     "publish:jest": "npm publish -w @pandora-box/eslint-config-jest --access public",
-    "publish:typescript": "npm publish -w @pandora-box/eslint-config-typescript --access public",
+    "publish:ts": "npm publish -w @pandora-box/eslint-config-typescript --access public",
+    "publish:node": "npm publish -w @pandora-box/eslint-config-node --access public",
     "publish:react": "npm publish -w @pandora-box/eslint-config-react --access public",
     "publish:prettier": "npm publish -w @pandora-box/prettier --access public"
+  },
+  "devDependencies": {
+    "@pandora-box/eslint-config-base": "*"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
   }
 }

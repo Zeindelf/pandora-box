@@ -2,7 +2,7 @@
 
 ### Installation
 ```bash
-npm install -D prettier @pandora-box/eslint-config-base
+npm install -D @pandora-box/eslint-config-base
 ```
 
 ### Setup

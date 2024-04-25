@@ -3,23 +3,23 @@ module.exports = {
   overrides: [
     {
       extends: [
-        "airbnb-typescript",
-        "plugin:@typescript-eslint/recommended",
-        "plugin:import/typescript"
+        'airbnb-typescript',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript'
       ],
       files: ['**/*.{ts,tsx}'],
-      "plugins": [
-        "@typescript-eslint",
-        "typescript-sort-keys",
-        "prettier",
+      plugins: [
+        '@typescript-eslint',
+        'typescript-sort-keys',
+        'prettier',
       ],
-      "parser": "@typescript-eslint/parser",
-      "parserOptions": {
-        "project": "tsconfig.json",
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: 'tsconfig.json',
       },
       rules: {
-        "typescript-sort-keys/interface": "error",
-        "typescript-sort-keys/string-enum": "error",
+        'typescript-sort-keys/interface': 'error',
+        'typescript-sort-keys/string-enum': 'error',
       },
     },
     {
@@ -43,7 +43,7 @@ module.exports = {
       ],
     },
     'import/resolver': {
-      'typescript': {
+      typescript: {
         alwaysTryTypes: true,
       },
     },

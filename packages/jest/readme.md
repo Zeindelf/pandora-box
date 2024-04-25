@@ -1,8 +1,8 @@
-## Eslint Base Config
+## Eslint Jest Config
 
 ### Installation
 ```bash
-npm install -D prettier @pandora-box/eslint-config-jest
+npm install -D @pandora-box/eslint-config-jest
 ```
 
 ### Setup
