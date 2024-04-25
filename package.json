@@ -39,5 +39,10 @@
   "engines": {
     "node": ">=20",
     "npm": ">=10"
+  },
+  "dependencies": {
+    "@pandora-box/eslint-config-typescript": "^0.1.0",
+    "eslint": "^9.1.1",
+    "eslint-plugin-node": "^11.1.0"
   }
 }
