@@ -30,7 +30,18 @@ module.exports = {
     // https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html
     'import/prefer-default-export': 'off',
     // Import rules
-    'import/no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/*.test.(js|jsx|ts|tsx)',
+          '**/*.spec.(js|jsx|ts|tsx)',
+          '**/*.stories.(js|jsx|ts|tsx)',
+          '**/.storybook/**/*.*',
+          '!src/**/*.(js|jsx|ts|tsx)',
+        ],
+      },
+    ],
     'import-helpers/order-imports': ['warn', {
       alphabetize: { order: 'asc', ignoreCase: true },
       newlinesBetween: 'always',
