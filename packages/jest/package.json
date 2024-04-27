@@ -1,9 +1,11 @@
 {
   "name": "@pandora-box/eslint-config-jest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "lint",
     "eslint",
@@ -22,7 +24,8 @@
   "license": "ISC",
   "dependencies": {
     "eslint-plugin-jest": "^28.2.0",
-    "eslint-plugin-jest-formatting": "^3.1.0"
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-testing-library": "^6.2.2"
   },
   "peerDependencies": {
     "eslint": ">= 9"

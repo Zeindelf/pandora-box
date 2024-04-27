@@ -9,6 +9,7 @@
     "typescript",
     "react",
     "prettier",
+    "storybook",
     "jest"
   ],
   "homepage": "https://github.com/Zeindelf/pandora-box#readme",
@@ -25,7 +26,7 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint . --fix",
+    "lint": "npx eslint . --fix",
     "publish:base": "npm publish -w @pandora-box/eslint-config-base --access public",
     "publish:jest": "npm publish -w @pandora-box/eslint-config-jest --access public",
     "publish:ts": "npm publish -w @pandora-box/eslint-config-typescript --access public",
@@ -33,16 +34,8 @@
     "publish:react": "npm publish -w @pandora-box/eslint-config-react --access public",
     "publish:prettier": "npm publish -w @pandora-box/prettier --access public"
   },
-  "devDependencies": {
-    "@pandora-box/eslint-config-base": "*"
-  },
   "engines": {
     "node": ">=20",
     "npm": ">=10"
-  },
-  "dependencies": {
-    "@pandora-box/eslint-config-typescript": "^0.1.0",
-    "eslint": "^9.1.1",
-    "eslint-plugin-node": "^11.1.0"
   }
 }

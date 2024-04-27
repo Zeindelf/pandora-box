@@ -1,9 +1,10 @@
 module.exports = {
   extends: [
-    '@pandora-box/eslint-config-typescript',
     'airbnb/hooks',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
+    '@pandora-box/typescript',
+    '@pandora-box/jest',
   ],
   plugins: [
     'react',
